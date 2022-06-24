@@ -3,73 +3,187 @@
     "name": "osmosis",
     "gasPrice": "0.0025uosmo",
     "ownerAddress": "osmovaloper1pgl5usqpelz3a4c04g6t3yyvlrc9yseylmtcnt",
-    "autostake": {
-      "correctSlip44": true
-    },
-    "restUrl": [
-      "https://lcd.osmosis.zone"
-    ],
-    "healthCheck": {
-      "uuid": "f34d12d3-2608-48b1-99be-b8ee5f48873d"
-    },
     "default": true
   },
   {
     "name": "juno",
-    "gasPrice": "0.0025ujuno",
-    "ownerAddress": "junovaloper1vq8tw77kp8lvxq9u3c8eeln9zymn68rng8pgt4",
-    "autostake": {
-      "correctSlip44": true
-    },
-    "restUrl": [
-      "https://lcd-juno.itastakers.com/"
-    ],
-    "healthCheck": {
-      "uuid": "ccb4e2fd-7983-4617-b7e2-2fa7e02414a3"
-    }
+    "ownerAddress": "osmovaloper1u5v0m74mql5nzfx2yh43s2tke4mvzghr6m2n5t",
+    "gasPrice": "0.0025ujuno"
   },
   {
     "name": "cosmoshub",
-    "gasPrice": "0.0025uatom",
-    "ownerAddress": "cosmosvaloper15ytx6mflyrxynjerqlud6w646v6u3qvtjtfane",
+    "ownerAddress": "junovaloper1vq8tw77kp8lvxq9u3c8eeln9zymn68rng8pgt4",
+    "gasPrice": "0.0025uatom"
+  },
+  {
+    "name": "akash"
+  },
+  {
+    "name": "chihuahua",
+    "gasPrice": "0.025uhuahua"
+  },
+  {
+    "name": "gravitybridge",
+    "gasPrice": "0.025ugraviton"
+  },
+  {
+    "name": "regen",
+    "gasPrice": "0.03uregen",
     "autostake": {
-      "correctSlip44": true
-    },
-    "restUrl": [
-      "https://lcd-cosmoshub.blockapsis.com/"
-    ],
-    "healthCheck": {
-      "uuid": "11c7eb15-c8b2-484a-a1e1-8ac86fee73f9"
+      "batchTxs": 5
     }
   },
   {
     "name": "terra",
-    "apyEnabled": false,
-    "gasPrice": "0.015uluna",
     "ownerAddress": "terravaloper1wzu2j73nvccghywtghku5ch59f67jykw58na64",
+    "apyEnabled": false,
+    "gasPrice": "0.015uluna"
+  },
+  {
+    "name": "sentinel",
+    "gasPrice": "0.02udvpn"
+  },
+  {
+    "name": "dig",
+    "gasPrice": "0.01udig"
+  },
+  {
+    "name": "bitcanna",
+    "gasPrice": "0.001ubcna"
+  },
+  {
+    "name": "emoney",
+    "apyEnabled": false,
+    "gasPrice": "0.08ungm"
+  },
+  {
+    "name": "kava",
+    "apyEnabled": false,
+    "gasPrice": "0.00008ukava"
+  },
+  {
+    "name": "desmos",
+    "gasPrice": "0.001udsm"
+  },
+  {
+    "name": "cryptoorgchain",
+    "gasPrice": "0.025basecro"
+  },
+  {
+    "name": "evmos",
+    "apyEnabled": false,
+    "txTimeout": 120000
+  },
+  {
+    "name": "sifchain",
+    "gasPrice": "1500000000000rowan"
+  },
+  {
+    "name": "lumnetwork"
+  },
+  {
+    "name": "stargaze",
+    "apyEnabled": false
+  },
+  {
+    "name": "comdex"
+  },
+  {
+    "name": "cheqd",
+    "gasPrice": "25ncheq"
+  },
+  {
+    "name": "umee"
+  },
+  {
+    "name": "bitsong"
+  },
+  {
+    "name": "persistence"
+  },
+  {
+    "name": "agoric",
+    "apyEnabled": false
+  },
+  {
+    "name": "impacthub",
+    "gasPrice": "0.025uixo",
+    "gasPricePrefer": "0.1uixo"
+  },
+  {
+    "name": "kichain",
+    "gasPrice": "0.025uxki"
+  },
+  {
+    "name": "sommelier"
+  },
+  {
+    "name": "konstellation",
+    "image": "https://raw.githubusercontent.com/Konstellation/DARC_token/main/darctoken.svg"
+  },
+  {
+    "name": "fetchhub",
+    "gasPrice": "5000afet"
+  },
+  {
+    "name": "cerberus",
+    "gasPrice": "0.025ucrbrus",
     "autostake": {
-      "correctSlip44": true
-    },
-    "restUrl": [
-      "https://phoenix-lcd.terra.dev"
-    ],
-    "healthCheck": {
-      "uuid": "4759a50b-3c4f-4ea5-a49a-260590fb748b"
+      "batchTxs": 100
     }
   },
   {
     "name": "secretnetwork",
-    "gasPrice": "0.0125uscrt",
-    "gasPricePrefer": "0.05uscrt",
     "ownerAddress": "secretvaloper1rfnmcuwzf3zn7r025j9zr3ncc7mt9ge56l7se7",
-    "autostake": {
-      "correctSlip44": true
-    },
-    "restUrl": [
-      "https://api.scrt.network/"
-    ],
-    "healthCheck": {
-      "uuid": "3309fc1c-dbf6-4d38-bb30-68bc273129de"
+    "gasPrice": "0.025uscrt",
+    "gasPricePrefer": "0.05uscrt"
+  },
+  {
+    "name": "bostrom",
+    "gasPrice": "0boot"
+  },
+  {
+    "name": "starname",
+    "gasPrice": "10uvoi"
+  },
+  {
+    "name": "rizon",
+    "gasPrice": "0.0001uatolo"
+  },
+  {
+    "name": "decentr",
+    "gasPrice": "0.025udec"
+  },
+  {
+    "name": "assetmantle",
+    "gasPrice": "0.025umntl",
+    "gasPriceStep": {
+      "low": 0,
+      "average": 0.025,
+      "high": 0.04
     }
+  },
+  {
+    "name": "crescent",
+    "gasPrice": "0.025ucre",
+    "gasPriceStep": {
+      "low": 0,
+      "average": 0.025,
+      "high": 0.04
+    },
+    "apyEnabled": false
+  },
+  {
+    "name": "meme",
+    "gasPrice": "0.025umeme"
+  },
+  {
+    "name": "cronos",
+    "enabled": false
+  },
+  {
+    "name": "harpoon",
+    "apyEnabled": false,
+    "testnet": true
   }
 ]
